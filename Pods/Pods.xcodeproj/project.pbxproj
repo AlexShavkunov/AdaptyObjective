@@ -83,7 +83,6 @@
 		67042C279F25EE4F395C293587587876 /* FetchFallbackViewConfigurationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D6BB0EDCD320D35EE8FF3A7F4FECF /* FetchFallbackViewConfigurationRequest.swift */; };
 		691EA7C0E487CD6B174C801340E7D2EB /* ValidateReceiptRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39B4BEAE0C20D960FAD6BFA8D6C8F37 /* ValidateReceiptRequest.swift */; };
 		6D5E28CDCA4EBBFCB24BD9CF2ACF7BDD /* CustomAdaptyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620DC626BF11577B78F218A7F4A4D0AB /* CustomAdaptyError.swift */; };
-		6E97E79E4110DC697608F3F0643041F9 /* Adapty-Adapty in Resources */ = {isa = PBXBuildFile; fileRef = 1E0899434FFC798020A091DE5D471E46 /* Adapty-Adapty */; };
 		6EBC59D0DD28C03F3DF600E33C208115 /* SetASATokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E11295BAD5D578DD43EA6604D1A3C /* SetASATokenRequest.swift */; };
 		6EDE7381A48D8091C19264668CC3F22B /* PaywallsStorage+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD54D46E651C7132B2FDB853E4B1869 /* PaywallsStorage+UserDefaults.swift */; };
 		6FE5730CF2796B21F42415C0B4BB1517 /* Image+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D8F387FF77886047339C186460D966 /* Image+Decodable.swift */; };
@@ -124,7 +123,6 @@
 		9387C6E51F9EE75E330D9DA52F0CA9E5 /* Adapty-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 499F8039B136722CFE8AC04247DC8CAD /* Adapty-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93AA125BC1DF5D51F20236713FBC4E1C /* AdaptyProfile.Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897B7C7DB015341DBFB8D156D71DE83C /* AdaptyProfile.Gender.swift */; };
 		9456624E6AB52441326E98687FE29FA6 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5BAAE0F9645F2AA7F863D9E3721AAC /* HTTPError.swift */; };
-		96B5E1D9DCDF1B862BE666E97297F041 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = DA1E100B9D6B6A441A9E0B033CD584FD /* PrivacyInfo.xcprivacy */; };
 		98E5180AB18F50AF84C462DC39A569BF /* ProfileStorage+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B4BFDE76E0DA8067B5DC3B6BC3AA5C /* ProfileStorage+UserDefaults.swift */; };
 		99075DE97DAE32D401A140D2BCF02B41 /* ProductStatesCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74262FFD20DA72FEFCD0DBAEE71AC0C2 /* ProductStatesCache.swift */; };
 		990CBD9C7A98F0C0B4071B2C7FF19FD2 /* URLRequest+Curl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A94CA61A14CDE18D1A54104E2BFCA /* URLRequest+Curl.swift */; };
@@ -218,13 +216,6 @@
 			remoteGlobalIDString = 5CC9A652521B99CD61797A6A165DC46D;
 			remoteInfo = Adapty;
 		};
-		8898E656B1A480AEC9B3B4DFC7322BEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C64F4D121A62A12D69AEF76A087C936;
-			remoteInfo = "Adapty-Adapty";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -258,7 +249,6 @@
 		1BCA4A84EF3F05A922008F71532A0A4E /* Pods-AdaptyObjective.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdaptyObjective.modulemap"; sourceTree = "<group>"; };
 		1D0F7D3EEB04A8F1998103A40E7ADA83 /* Backend.Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backend.Validator.swift; path = Sources/Backend/Backend.Validator.swift; sourceTree = "<group>"; };
 		1D8A1F46D8FF1D0B35EA3BA8469FE12B /* FetchViewConfigurationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchViewConfigurationRequest.swift; path = Sources/AdaptyUI/Requests/FetchViewConfigurationRequest.swift; sourceTree = "<group>"; };
-		1E0899434FFC798020A091DE5D471E46 /* Adapty-Adapty */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adapty-Adapty"; path = Adapty.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		202AB6D4FEB3DB5A9E9E9AEFECA215E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		208533EB2898601172AC5C9306B2CF35 /* Adapty+FallbackPaywalls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Adapty+FallbackPaywalls.swift"; path = "Sources/Adapty+FallbackPaywalls.swift"; sourceTree = "<group>"; };
 		20E99C65F1E091F733DE7EBF3496F0B4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
@@ -356,7 +346,7 @@
 		99DF90BFAE75CF4A8CB2F3B2C2984CD9 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Sources/Events/Entities/Event.swift; sourceTree = "<group>"; };
 		9C98065F8C656B80FFFB29A804102764 /* ShapeType+Decodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ShapeType+Decodable.swift"; path = "Sources/AdaptyUI/Format/ShapeType+Decodable.swift"; sourceTree = "<group>"; };
 		9D50506178457989A7B63E0D6AF217BC /* AdaptyPaywall.FetchPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptyPaywall.FetchPolicy.swift; path = Sources/Entities/AdaptyPaywall.FetchPolicy.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A077DB77CE06FF4A55C70DB997790D22 /* InternalAdaptyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalAdaptyError.swift; path = Sources/Error/InternalAdaptyError.swift; sourceTree = "<group>"; };
 		A209169569C1B8719CFB4F55AD0B91D2 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Sources/AdaptyUI/Entities/Point.swift; sourceTree = "<group>"; };
 		A258AFB765B10E16354E532C78373101 /* Shape.CornerRadius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.CornerRadius.swift; path = Sources/AdaptyUI/Entities/Shape.CornerRadius.swift; sourceTree = "<group>"; };
@@ -413,7 +403,7 @@
 		D48932CAA747129714AC0CB74D2528AE /* HTTPEndpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPEndpoint.swift; path = Sources/HTTPSession/HTTPEndpoint.swift; sourceTree = "<group>"; };
 		D9B4BFDE76E0DA8067B5DC3B6BC3AA5C /* ProfileStorage+UserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProfileStorage+UserDefaults.swift"; path = "Sources/Storage/ProfileStorage+UserDefaults.swift"; sourceTree = "<group>"; };
 		D9BC9894183807593F6841D8F7101296 /* FetchProductStatesRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FetchProductStatesRequest.swift; path = Sources/Backend/Requests/FetchProductStatesRequest.swift; sourceTree = "<group>"; };
-		DA1E100B9D6B6A441A9E0B033CD584FD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DA1E100B9D6B6A441A9E0B033CD584FD /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		DA349C6BAE35E34EB11220F4AFD5BC5A /* HTTPDataResponse.Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPDataResponse.Validator.swift; path = Sources/HTTPSession/HTTPDataResponse.Validator.swift; sourceTree = "<group>"; };
 		DC2B8D40FA5EB42B9B8EBCA26A45180E /* AdaptyExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptyExtended.swift; path = Sources/Extensions/AdaptyExtended.swift; sourceTree = "<group>"; };
 		DD601179F8F521C664F97C688C4BF752 /* Adapty+AsyncHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Adapty+AsyncHelpers.swift"; path = "Sources/Adapty+AsyncHelpers.swift"; sourceTree = "<group>"; };
@@ -446,13 +436,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63B9A4EE942738BD866722B132D668C9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C7007F05BB5D1DFDD68F9A0A388B2619 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -711,7 +694,6 @@
 				CC2E3ED441CEB8F92DC6197135ADD738 /* Resources */,
 				005EBE0F7235E3878CA087C8D2E6B9CD /* Support Files */,
 			);
-			name = Adapty;
 			path = Adapty;
 			sourceTree = "<group>";
 		};
@@ -719,7 +701,6 @@
 			isa = PBXGroup;
 			children = (
 				0E470257DD434E0D418AC94DAF10C7EA /* Adapty */,
-				1E0899434FFC798020A091DE5D471E46 /* Adapty-Adapty */,
 				A8A1A5DA163F32A0255118ACB8C70FF6 /* Pods-AdaptyObjective */,
 			);
 			name = Products;
@@ -793,23 +774,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4C64F4D121A62A12D69AEF76A087C936 /* Adapty-Adapty */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCC00D7A7AB726586C0E9FA2BE3BC13F /* Build configuration list for PBXNativeTarget "Adapty-Adapty" */;
-			buildPhases = (
-				1728681664CCE39A86050CC1DE3AE99F /* Sources */,
-				63B9A4EE942738BD866722B132D668C9 /* Frameworks */,
-				2CA9ABCDF7E114E6AB1330C76AB6DC80 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Adapty-Adapty";
-			productName = Adapty;
-			productReference = 1E0899434FFC798020A091DE5D471E46 /* Adapty-Adapty */;
-			productType = "com.apple.product-type.bundle";
-		};
 		4FD490D5E9727F7088888203C62BA637 /* Pods-AdaptyObjective */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7EC1810BBE90C9AAF4517F70B8D69FB /* Build configuration list for PBXNativeTarget "Pods-AdaptyObjective" */;
@@ -841,7 +805,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				49279A51F44C333C686AEC9ACD03BDF7 /* PBXTargetDependency */,
 			);
 			name = Adapty;
 			productName = Adapty;
@@ -871,26 +834,16 @@
 			projectRoot = "";
 			targets = (
 				5CC9A652521B99CD61797A6A165DC46D /* Adapty */,
-				4C64F4D121A62A12D69AEF76A087C936 /* Adapty-Adapty */,
 				4FD490D5E9727F7088888203C62BA637 /* Pods-AdaptyObjective */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2CA9ABCDF7E114E6AB1330C76AB6DC80 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96B5E1D9DCDF1B862BE666E97297F041 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3FEBFAEB59C8905C258B171FCCA637BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E97E79E4110DC697608F3F0643041F9 /* Adapty-Adapty in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -904,13 +857,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1728681664CCE39A86050CC1DE3AE99F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42108488729360477319D328AC4860F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1120,12 +1066,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49279A51F44C333C686AEC9ACD03BDF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Adapty-Adapty";
-			target = 4C64F4D121A62A12D69AEF76A087C936 /* Adapty-Adapty */;
-			targetProxy = 8898E656B1A480AEC9B3B4DFC7322BEE /* PBXContainerItemProxy */;
-		};
 		EEB1566164DBD44905FDCE963621E832 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Adapty;
@@ -1172,23 +1112,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		0D134B9DFA72524183BCE6615DF2F2DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 048FB30038A4E632FE6352403B62A453 /* Adapty.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adapty";
-				IBSC_MODULE = Adapty;
-				INFOPLIST_FILE = "Target Support Files/Adapty/ResourceBundle-Adapty-Adapty-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				PRODUCT_NAME = Adapty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		345A467B5BA9E71D806398E5972B8A5B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1426,23 +1349,6 @@
 			};
 			name = Release;
 		};
-		BA25FFF58C555B82F3EC0AB106F87FD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 978F01C1F3CC80DE9577A4C8C420F21D /* Adapty.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adapty";
-				IBSC_MODULE = Adapty;
-				INFOPLIST_FILE = "Target Support Files/Adapty/ResourceBundle-Adapty-Adapty-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				PRODUCT_NAME = Adapty;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1460,15 +1366,6 @@
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCC00D7A7AB726586C0E9FA2BE3BC13F /* Build configuration list for PBXNativeTarget "Adapty-Adapty" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D134B9DFA72524183BCE6615DF2F2DA /* Debug */,
-				BA25FFF58C555B82F3EC0AB106F87FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

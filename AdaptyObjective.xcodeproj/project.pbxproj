@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975587C42C42093200BA34DE /* TestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975587C32C42093200BA34DE /* TestTest.swift */; };
 		9775A86C2C41A0C200D0B2EC /* AdaptyObjective.h in Headers */ = {isa = PBXBuildFile; fileRef = 9775A86B2C41A0C200D0B2EC /* AdaptyObjective.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9775A8732C41A14200D0B2EC /* AdaptyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775A8722C41A14200D0B2EC /* AdaptyWrapper.swift */; };
 		DE38D89EF2990CA0C3959780 /* Pods_AdaptyObjective.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7907FB07AAEF88B73C7D79D4 /* Pods_AdaptyObjective.framework */; };
@@ -15,6 +16,7 @@
 /* Begin PBXFileReference section */
 		749C9220A79792ED7C204EB8 /* Pods-AdaptyObjective.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdaptyObjective.release.xcconfig"; path = "Target Support Files/Pods-AdaptyObjective/Pods-AdaptyObjective.release.xcconfig"; sourceTree = "<group>"; };
 		7907FB07AAEF88B73C7D79D4 /* Pods_AdaptyObjective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdaptyObjective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975587C32C42093200BA34DE /* TestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTest.swift; sourceTree = "<group>"; };
 		9775A8682C41A0C200D0B2EC /* AdaptyObjective.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdaptyObjective.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9775A86B2C41A0C200D0B2EC /* AdaptyObjective.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptyObjective.h; sourceTree = "<group>"; };
 		9775A8722C41A14200D0B2EC /* AdaptyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptyWrapper.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				9775A86B2C41A0C200D0B2EC /* AdaptyObjective.h */,
 				9775A8722C41A14200D0B2EC /* AdaptyWrapper.swift */,
+				975587C32C42093200BA34DE /* TestTest.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -74,7 +77,6 @@
 				B91356CA92D2C06D7F4F64F3 /* Pods-AdaptyObjective.debug.xcconfig */,
 				749C9220A79792ED7C204EB8 /* Pods-AdaptyObjective.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -185,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9775A8732C41A14200D0B2EC /* AdaptyWrapper.swift in Sources */,
+				975587C42C42093200BA34DE /* TestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

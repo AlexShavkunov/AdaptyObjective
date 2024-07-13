@@ -9,8 +9,4 @@ import Adapty
     @objc public func helloKitty() -> String {
         return "Hello Kitty!"
     }
-    
-    public func activate(key: String, userId: String) {
-        Adapty.activate(key, customerUserId: userId)
-    }
 }

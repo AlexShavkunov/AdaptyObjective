@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AdaptyObjective'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.license      = { :type => 'MIT' }
   s.homepage     = 'https://github.com/AlexShavkunov/AdaptyObjective'
   s.authors      = { 'Alex Shavkunov' => 'aleeexshavkunov@gmail.com' }
